@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+.contenedor {
+    display: flex;
+    gap: 50px;
+}
+
+.gusanito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.nivel1, .nivel2, .nivel3, .nivel4, .nivel5, .nivel6, .nivel7 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.nivel1 { background-color: red; }
+.nivel2 { background-color: orange; }
+.nivel3 { background-color: yellow; }
+.nivel4 { background-color: green; }
+.nivel5 { background-color: blue; }
+.nivel6 { background-color: indigo; }
+.nivel7 { background-color: violet; }
